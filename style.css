@@ -1,0 +1,164 @@
+body {
+	background-color : #e9e9e2;
+	text-align : center;
+	font-family: 'Trebuchet MS', sans-serif;
+	color : #3d2f4b;
+}
+
+h1{
+	margin: auto;
+	margin-top : 40px;
+	text-align : center;
+	border-bottom : 3px solid #3d2f4b;
+	width : 50%;
+}
+
+table{
+	margin : auto;
+	margin-top : 30px;
+	border : 2px solid #d1c5d8;
+	width : 90%;
+}
+
+table th {
+	font-size : 20px;
+	border-bottom : 2px solid #3d2f4b;
+	width : 15%;
+	padding : 1%;
+	background-color : #d1c5d8;
+}
+
+table td {
+	font-size : 19px;
+	width : 15%;
+	padding : 0.5%;
+}
+
+.mate {
+	background-color : #ebc6c6;
+}
+
+.mate::before{
+	content : "Matematică";
+}
+
+.rom {
+	background-color : #f0e3d6;
+}
+
+.rom::before{
+	content : "Lb. Română";
+}
+
+.bio {
+	background-color : #c7dcc7;
+}
+
+.bio::before{
+	content : "Biologie";
+}
+
+.infoa {
+	background-color : #d1c2d1;
+	cursor : pointer;
+}
+
+.infoa::before{
+	content : "Informatică_A";
+}
+
+.infot {
+	background-color : #d1c2d1;
+}
+
+.infot::before{
+	content : "Informatică_T";
+}
+
+.geo {
+	background-color : #88b9b9;
+}
+
+.geo::before{
+	content : "Geografie";
+}
+
+.fizica {
+	background-color : #b5cd9d;
+}
+
+.fizica::before{
+	content : "Fizică";
+}
+
+.chim {
+	background-color : #e9d9c9;
+}
+
+.chim::before{
+	content : "Chimie";
+}
+
+.filos {
+	background-color : #a7a7d2;
+}
+
+.filos::before{
+	content : "Filosofie";
+}
+
+.franc {
+	background-color : #e1e189;
+}
+
+.franc::before{
+	content : "Lb. Franceză";
+}
+
+.IC {
+	background-color : #99ccff;
+}
+
+.IC::before{
+	content : "Istoria comunismului";
+}
+
+.eng {
+	background-color : #bfbfbf;
+}
+
+.eng::before{
+	content : "Lb. Engleză";
+}
+
+.sport {
+	background-color : #c1e2e2;
+}
+
+.sport::before{
+	content : "Ed. Fizică";
+}
+
+.istorie {
+	background-color : #8fa6bd;
+}
+
+.istorie::before{
+	content : "Istorie";
+}
+
+.religie {
+	background-color : #e8b0e8;
+}
+
+.religie::before{
+	content : "Religie";
+}
+
+.dir{
+	background-color : #dcd5d5;
+}
+
+.dir::before{
+	content : "Dirigenție";
+}
