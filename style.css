@@ -13,6 +13,13 @@ h1{
 	width : 50%;
 }
 
+a {
+	margin: auto;
+	text-align : center;
+	color : #3d2f4b;
+	text-decoration: none;
+}
+
 table{
 	margin : auto;
 	margin-top : 30px;
@@ -42,38 +49,86 @@ table td {
 	content : "Matematică";
 }
 
-.rom {
+.etica {
 	background-color : #f0e3d6;
 }
 
-.rom::before{
-	content : "Lb. Română";
+.etica::before{
+	content : "Etica și Integritate Academica";
 }
 
-.bio {
+.str {
 	background-color : #c7dcc7;
 }
 
-.bio::before{
-	content : "Biologie";
+.str::before{
+	content : "Structuri de date";
 }
 
-.infoa {
+.info {
 	background-color : #d1c2d1;
 	cursor : pointer;
 }
 
-.infoa::before{
-	content : "Informatică_A";
+.info::before{
+	content : "Introducere în programare";
 }
 
-.infot {
-	background-color : #d1c2d1;
+.logica {
+	background-color : #a7a7d2;
 }
 
-.infot::before{
-	content : "Informatică_T";
+.logica::before{
+	content : "Logica pentru informatică";
 }
+
+.eng {
+	background-color : #dcd5d5;
+}
+
+.eng::before{
+	content : "Lb. Engleză";
+}
+
+.sport {
+	background-color : #99ccff;
+}
+
+.sport::before{
+	content : "Ed. Fizică";
+}
+
+.acso {
+	background-color : #e8b0e8;
+}
+
+.acso::before{
+	content : "ACSO";
+}
+
+.pc {
+	background-color : #e1e189;
+}
+
+.pc::before{
+	content : "Programare competitivă";
+}
+
+.mp {
+	background-color : #8fa6bd;
+}
+
+.mp::before{
+	content : "Profesoreală";
+}
+
+#seminar{
+	border-color : #3d2f4b;
+	border-style: solid;
+	border-width: 3px;
+}
+
+----------------------------------------------
 
 .geo {
 	background-color : #88b9b9;
@@ -89,76 +144,4 @@ table td {
 
 .fizica::before{
 	content : "Fizică";
-}
-
-.chim {
-	background-color : #e9d9c9;
-}
-
-.chim::before{
-	content : "Chimie";
-}
-
-.filos {
-	background-color : #a7a7d2;
-}
-
-.filos::before{
-	content : "Filosofie";
-}
-
-.franc {
-	background-color : #e1e189;
-}
-
-.franc::before{
-	content : "Lb. Franceză";
-}
-
-.IC {
-	background-color : #99ccff;
-}
-
-.IC::before{
-	content : "Istoria comunismului";
-}
-
-.eng {
-	background-color : #bfbfbf;
-}
-
-.eng::before{
-	content : "Lb. Engleză";
-}
-
-.sport {
-	background-color : #c1e2e2;
-}
-
-.sport::before{
-	content : "Ed. Fizică";
-}
-
-.istorie {
-	background-color : #8fa6bd;
-}
-
-.istorie::before{
-	content : "Istorie";
-}
-
-.religie {
-	background-color : #e8b0e8;
-}
-
-.religie::before{
-	content : "Religie";
-}
-
-.dir{
-	background-color : #dcd5d5;
-}
-
-.dir::before{
-	content : "Dirigenție";
 }
